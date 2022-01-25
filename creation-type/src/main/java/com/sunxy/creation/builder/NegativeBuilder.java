@@ -33,7 +33,11 @@ public class NegativeBuilder {
          */
         private Boolean hasTouchId;
 
-        public Computer(String cpu, String memory, String motherboard, Boolean hasCamera, Boolean hasTouchId) {
+        public Computer(String cpu,
+                        String memory,
+                        String motherboard,
+                        Boolean hasCamera,
+                        Boolean hasTouchId) {
             this.cpu = cpu;
             this.memory = memory;
             this.motherboard = motherboard;
